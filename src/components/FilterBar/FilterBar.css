@@ -1,0 +1,25 @@
+.filter-bar {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 18px;
+  flex-wrap: wrap;
+}
+
+.filter-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.filter-field label {
+  font-weight: bold;
+  color: #444;
+}
+
+.filter-field select {
+  padding: 10px;
+  min-width: 180px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: white;
+}
